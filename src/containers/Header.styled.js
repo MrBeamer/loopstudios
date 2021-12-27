@@ -13,7 +13,7 @@ export const Header = styled.header`
     url(${imgHero});
 
   background-size: cover;
-  background-size: 100%;
+  background-size: 100% 100%;
 
   background-repeat: no-repeat;
   background-position: center;

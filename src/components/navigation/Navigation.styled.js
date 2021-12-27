@@ -11,6 +11,7 @@ export const Logo = styled.img``;
 
 export const Menu = styled.ul`
   display: flex;
+  height: 22px;
 `;
 
 export const MenuItem = styled.li`
@@ -19,6 +20,14 @@ export const MenuItem = styled.li`
 
   &:last-child {
     margin-right: 0;
+  }
+
+  &:hover::after {
+    content: "";
+    height: 2px;
+    background: #fff;
+    display: block;
+    margin-top: 8px;
   }
 `;
 

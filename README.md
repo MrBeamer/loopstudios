@@ -9,6 +9,8 @@ The designs were created to the following widths:
 
 ## Colors
 
+#108FC5
+
 ### Primary
 
 - White: hsl(0, 0%, 100%)
