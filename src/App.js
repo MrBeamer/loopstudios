@@ -6,6 +6,7 @@ import { Footer } from "./containers/Footer.styled";
 import Navigation from "./components/navigation/Navigation";
 import Headline from "./components/headline/Headline";
 import Content from "./components/content/Content";
+import Gallery from "./components/gallery/Gallery";
 
 function App() {
   return (
@@ -17,10 +18,9 @@ function App() {
       </Header>
       <MainContent>
         <Content />
+        <Gallery />
       </MainContent>
-      <Footer>
-        <h2>Footer</h2>
-      </Footer>
+      <Footer></Footer>
     </AppContainer>
   );
 }

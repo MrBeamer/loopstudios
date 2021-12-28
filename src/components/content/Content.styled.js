@@ -30,6 +30,7 @@ export const Headline = styled.h2`
   line-height: 48px;
   text-transform: uppercase;
   color: #000000;
+  margin-bottom: 25px;
 `;
 
 export const Text = styled.p`

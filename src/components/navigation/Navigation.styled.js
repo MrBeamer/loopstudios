@@ -17,6 +17,7 @@ export const Menu = styled.ul`
 export const MenuItem = styled.li`
   margin-right: 32px;
   list-style-type: none;
+  cursor: pointer;
 
   &:last-child {
     margin-right: 0;
