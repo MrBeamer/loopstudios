@@ -11,18 +11,6 @@ import {
 import images from "../../assets/images/index.js";
 console.log(images);
 
-// import {
-//   curiosity,
-//   deep,
-//   fisheye,
-//   above,
-//   grid,
-//   interactive,
-//   arcade,
-//   pocket,
-//   soccer,
-// } from "../../assets/images/desktop/";
-
 export default function Gallery() {
   return (
     <StyledGallery>

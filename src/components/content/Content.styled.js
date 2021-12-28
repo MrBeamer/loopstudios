@@ -3,43 +3,56 @@ import styled from "styled-components";
 export const StyledContent = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
+
+  @media only screen and (max-width: 948px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+  }
 `;
 
 export const Image = styled.img`
-  width: 731px;
+  max-width: 45.688rem;
+  width: 100%;
   grid-column: 1/-1;
   grid-row: 1;
 `;
 
 export const TextBlock = styled.div`
   display: grid;
-  max-width: 541px;
+  max-width: 32.125rem;
   grid-column: 2/3;
   align-self: end;
   grid-row: 1;
   background-color: #fff;
-  padding: 96px 0 0 96px;
+  padding: 6rem 0 0 6rem;
+
+  @media only screen and (max-width: 948px) {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 6rem 0 0 0;
+  }
 `;
 
 export const Headline = styled.h2`
   grid-column: 1/-1;
-  max-width: 445px;
+  max-width: 27.813rem;
 
   font-weight: 300;
-  font-size: 48px;
-  line-height: 48px;
+  font-size: 3rem;
+  line-height: 3rem;
   text-transform: uppercase;
   color: #000000;
-  margin-bottom: 25px;
+  margin-bottom: 1.563rem;
 `;
 
 export const Text = styled.p`
   grid-column: 1/-1;
-  max-width: 445px;
+  max-width: 27.813rem;
 
   font-weight: normal;
-  font-size: 15px;
-  line-height: 25px;
+  font-size: 0.938rem;
+  line-height: 1.563rem;
   color: #000000;
   opacity: 0.5;
 `;

@@ -2,11 +2,11 @@ import { GlobalStyle } from "./GlobalStyle.style";
 import { Header } from "./containers/Header.styled";
 import { AppContainer } from "./containers/AppContainer.styled";
 import { MainContent } from "./containers/MainContent.styled";
-import { Footer } from "./containers/Footer.styled";
 import Navigation from "./components/navigation/Navigation";
 import Headline from "./components/headline/Headline";
 import Content from "./components/content/Content";
 import Gallery from "./components/gallery/Gallery";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -20,7 +20,7 @@ function App() {
         <Content />
         <Gallery />
       </MainContent>
-      <Footer></Footer>
+      <Footer />
     </AppContainer>
   );
 }
