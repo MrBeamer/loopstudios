@@ -8,7 +8,6 @@ import {
   Title,
 } from "./Gallery.styled";
 
-import images from "../../assets/images/index.js";
 import curiosity from "../../assets/images/desktop/image-curiosity.jpg";
 import deep from "../../assets/images/desktop/image-deep-earth.jpg";
 import fisheye from "../../assets/images/desktop/image-fisheye.jpg";
