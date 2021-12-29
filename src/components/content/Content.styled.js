@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledContent = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 541px;
 
   @media only screen and (max-width: 948px) {
     grid-template-columns: 1fr;
@@ -31,6 +31,10 @@ export const TextBlock = styled.div`
     grid-column: 1;
     grid-row: 2;
     padding: 6rem 0 0 0;
+  }
+
+  @media only screen and (max-width: 426px) {
+    padding: 3rem 0 0 0;
   }
 `;
 

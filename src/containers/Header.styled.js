@@ -13,13 +13,19 @@ export const Header = styled.header`
     url(${imgHero});
 
   background-size: cover;
-  background-size: 100% 100%;
+  ${"" /* background-size: 100% 100%; */}
 
   background-repeat: no-repeat;
   background-position: center;
   color: #ffffff;
 
-  @media only screen and (max-width: 948px) {
-    padding: 4.063rem 2.5rem 9.125rem 2.5rem;
+  @media only screen and (max-width: 1150px) {
+    padding: 4.063rem 3.25rem 9.125rem 3.25rem;
+  }
+
+  ${
+    "" /* @media only screen and (max-width: 1090px) {
+    padding: 4.063rem 3.25rem 9.125rem 3.25rem;
+  } */
   }
 `;

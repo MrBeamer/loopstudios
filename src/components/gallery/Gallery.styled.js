@@ -50,12 +50,10 @@ export const Button = styled.button`
 export const ContainerCards = styled.div`
   grid-column: 1/-1;
   display: grid;
+  justify-content: center;
   grid-template-columns: repeat(auto-fit, minmax(254px, 254px));
   grid-gap: 1.875rem;
   margin-top: 5rem;
-  @media only screen and (max-width: 948px) {
-    justify-content: center;
-  }
 `;
 
 export const Card = styled.div`
