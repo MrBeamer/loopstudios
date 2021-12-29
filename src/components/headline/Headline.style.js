@@ -7,7 +7,7 @@ export const StyledHeadline = styled.h1`
   padding: 2.5rem;
   text-transform: uppercase;
   border: 2px solid #ffffff;
-  max-width: 35.625rem;
+  max-width: 40.625rem;
 
   @media only screen and (max-width: 430px) {
     padding: 1.5rem;
