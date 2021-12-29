@@ -16,7 +16,7 @@ import logo from "../../assets/images/shared/logo.svg";
 export default function Footer() {
   return (
     <StyledFooter>
-      <Logo src={logo} />
+      <Logo src={logo} alt="logo" />
       <Menu>
         <MenuItem>
           <MenuLink>About</MenuLink>
