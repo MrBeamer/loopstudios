@@ -5,20 +5,18 @@ import {
   Socials,
   SocialItem,
   SocialLink,
-} from "./Footer.styled.js";
-import {
   MenuItem,
-  Logo,
   MenuLink,
   Menu,
-} from "../navigation/Navigation.styled.js";
+  Logo,
+} from "./Footer.styled.js";
 
 import logo from "../../assets/images/shared/logo.svg";
 
 export default function Footer() {
   return (
     <StyledFooter>
-      <Logo margin="0 0 20px 0" width="144px" src={logo} />
+      <Logo src={logo} />
       <Menu>
         <MenuItem>
           <MenuLink>About</MenuLink>

@@ -4,8 +4,9 @@ export const StyledGallery = styled.div`
   margin-top: 11.5rem;
   display: grid;
   grid-template-columns: 1fr 175px;
+  transition: all 0.4s linear;
 
-  @media only screen and (max-width: 620px) {
+  @media only screen and (max-width: 720px) {
     margin-top: 6rem;
   }
 `;
@@ -13,12 +14,13 @@ export const StyledGallery = styled.div`
 export const Headline = styled.h2`
   grid-column: 1;
   font-weight: 300;
-  font-size: 3rem;
+  font-size: clamp(2.4rem, 8vw, 3rem);
   line-height: 3rem;
+
   text-transform: uppercase;
   color: #000000;
 
-  @media only screen and (max-width: 620px) {
+  @media only screen and (max-width: 720px) {
     grid-column: 1/-1;
     justify-self: center;
   }
@@ -42,8 +44,15 @@ export const Button = styled.button`
     background: #000000;
   }
 
-  @media only screen and (max-width: 620px) {
-    display: none;
+  @media only screen and (max-width: 721px) {
+    margin-top: 34px;
+    grid-column: 1/-1;
+    grid-row: 3;
+    width: 175px;
+    justify-self: center;
+  }
+
+  @media only screen and (max-width: 430px) {
   }
 `;
 
@@ -54,6 +63,10 @@ export const ContainerCards = styled.div`
   grid-template-columns: repeat(auto-fit, minmax(254px, 254px));
   grid-gap: 1.875rem;
   margin-top: 5rem;
+
+  @media only screen and (max-width: 430px) {
+    margin-top: 3rem;
+  }
 `;
 
 export const Card = styled.div`

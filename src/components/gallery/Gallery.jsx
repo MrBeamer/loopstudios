@@ -9,7 +9,6 @@ import {
 } from "./Gallery.styled";
 
 import images from "../../assets/images/index.js";
-console.log(images);
 
 export default function Gallery() {
   return (

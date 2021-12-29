@@ -33,7 +33,7 @@ export const TextBlock = styled.div`
     padding: 6rem 0 0 0;
   }
 
-  @media only screen and (max-width: 426px) {
+  @media only screen and (max-width: 430px) {
     padding: 3rem 0 0 0;
   }
 `;
@@ -43,7 +43,7 @@ export const Headline = styled.h2`
   max-width: 27.813rem;
 
   font-weight: 300;
-  font-size: 3rem;
+  font-size: clamp(2.5rem, 8vw, 3rem);
   line-height: 3rem;
   text-transform: uppercase;
   color: #000000;
@@ -53,7 +53,6 @@ export const Headline = styled.h2`
 export const Text = styled.p`
   grid-column: 1/-1;
   max-width: 27.813rem;
-
   font-weight: normal;
   font-size: 0.938rem;
   line-height: 1.563rem;
