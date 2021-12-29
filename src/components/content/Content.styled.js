@@ -13,6 +13,7 @@ export const StyledContent = styled.div`
 
 export const Image = styled.img`
   max-width: 45.688rem;
+  height: 500px;
   width: 100%;
   grid-column: 1/-1;
   grid-row: 1;
@@ -25,7 +26,8 @@ export const TextBlock = styled.div`
   align-self: end;
   grid-row: 1;
   background-color: #fff;
-  padding: 6rem 0 0 6rem;
+  padding: 6rem 0 0 5rem;
+  height: 317px;
 
   @media only screen and (max-width: 948px) {
     grid-column: 1;
