@@ -17,6 +17,10 @@ export const Image = styled.img`
   width: 100%;
   grid-column: 1/-1;
   grid-row: 1;
+
+  @media only screen and (max-width: 948px) {
+    height: auto;
+  }
 `;
 
 export const TextBlock = styled.div`
